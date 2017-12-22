@@ -1,0 +1,36 @@
+.message{
+    font-size: 18px;
+    .ant-col-6{
+        padding: 10px;
+        text-align: right
+    }
+    .ant-col-18{
+        padding: 10px;
+    }
+    .ant-table-thead{
+        tr{
+            display: flex !important;
+            th{
+                flex: 1 !important;
+            }
+        }
+    }
+    tbody{
+        tr{
+        display: flex
+        }
+    }
+    td{
+        flex: 1
+    }
+}
+.image{
+    padding-left: 60px;
+    img{
+        height: 200px;
+        width: 200px;
+    }
+}
+.editable-row-operations a {
+    margin-right: 12px;
+  }

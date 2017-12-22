@@ -1,0 +1,45 @@
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: color .3s;
+  }
+  
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: #108ee9;
+  }
+  
+  #components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    background: #333;
+    border-radius: 6px;
+    margin: 16px;
+  }
+  .ant-menu{
+    flex-direction: column;
+    li{
+      text-align: left;
+      .ant-menu-submenu-title{
+        padding: 0;
+      }
+    }
+  }
+  .ant-layout{
+    height: 100%;
+  }
+  .logo {
+    height: 32px;
+    background: #333;
+    border-radius: 6px;
+    margin: 16px;
+  }
+  ul{
+    li{
+      margin: 0;
+    }
+  }
+  
+  // .logo{
+  //   height: 200px;
+  // }
